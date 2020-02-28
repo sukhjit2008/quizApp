@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    font-size: 1.6rem;
+
+
+    position: relative;
+    height: 100%;
+
+}
+
+.body {
+    background-color: $color-blue;
+    ;
+}
+
+.hide {
+    display: none !important;
+}
+
+.correct {
+    background-color: $color-green !important;
+}
+
+.incorrect {
+    background-color: $color-red !important;
+}
